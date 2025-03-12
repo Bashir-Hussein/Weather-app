@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -12,31 +13,48 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="60sp"
-        android:layout_marginTop="60sp"
-        android:text="Weather Application"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp" />
-
+        android:text="Cimilo sheeg application"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="90dp"
+        android:textSize="20sp"
+        />
     <EditText
+        android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:layout_marginBottom="100dp"
-        android:hint="Enter weather f/"
-        android:textColor="@color/white"
+        android:hint="Please Enter a weather f/"
         android:textColorHint="@color/white"
-        android:textSize="13sp"
-
-
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         />
 
     <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:textSize="27sp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        />
+
+    <TextView
+        android:id="@+id/formula"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="click here"
+        android:text="F=(F-32)*5/9"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="40dp"
         />
+
 
 
 
